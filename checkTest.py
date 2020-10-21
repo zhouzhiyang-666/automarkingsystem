@@ -1,7 +1,7 @@
 import numpy as np
 import imutils
 import cv2
-#  定义一个类，宝航所有属性和方法
+#  定义一个类，包含所有属性和方法
 class check_test(object):
     def __init__(self,image):
         self.big_circles = np.array([0,0,0])
